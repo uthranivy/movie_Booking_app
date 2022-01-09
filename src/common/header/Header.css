@@ -1,0 +1,23 @@
+.header {
+     
+    padding: 8px 32px 8px 16px;
+    background-color:  #222;
+    height: 36px;
+    text-transform: uppercase;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.header-logo{
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: rotate 8s linear infinite;
+}
